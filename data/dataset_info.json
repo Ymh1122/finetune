@@ -1,0 +1,11 @@
+{
+  "local_material_sft": {
+    "file_name": "train.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "instruction": "instruction",
+      "input": "input",
+      "output": "output"
+    }
+  }
+}

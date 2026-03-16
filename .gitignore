@@ -1,0 +1,36 @@
+# Data artifacts (private by default)
+data/*.jsonl
+!data/dataset_info.json
+
+# Training outputs
+outputs/
+checkpoints/
+logs/
+*.log
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+.cache/
+*.tmp
